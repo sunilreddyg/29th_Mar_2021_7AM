@@ -1,0 +1,144 @@
+Non-Functional Testing:-->
+
+	=> Tester involve in non-functional testing using NFRS document
+		[Non functional required specification document].
+
+	=> After completed functional testing  testing involve in non functional
+		testings, These non-functional are support functional are to perform better.
+
+
+1.Usability Testing:-->
+	During this test tester verify user friendlyness of software
+
+	Note:--> Tester verify software userfriendlyness using below checklist
+
+	1.Verify spelling in all screens of software
+	2.Verify labels in it all screens of software
+	3.Verify Meaning of labels in all screens of software
+	4.Verify line spacing in label and control
+	5.Verify line spacing in controls
+	6.Verify location of controls which are functionality related
+	7.Verify home button in every screens
+	8.Verify shortcuts in labels of screens
+	9.Verify icon symbol meaning
+	10.Verify icon tool tips
+	11.Verify  keyboard access on every screens
+	12.Verify meaning of error
+	13.Verify system menu existence in screens.(Minimize, Maximize, Restore, click….etc
+	14.Verify help documentations.
+	15.Verify color contrast of screens
+
+===================================================================
+2. Compatibily Testing:-->
+	During this test tester verify browser and operating system comptibility.
+	Here test engineer verify whether software is accessable and operatable 
+	with in client expected browsers and operating systems.
+
+	=> Other name of compatibility testing is cross browser testing
+		[In real time organizations use selenium kind of automation tools to 
+			conduct cross -browser automation]	
+
+	Difficulties:-->
+		=> if develope fix bug in one browser it effect to other browsers. Because
+			each browser follow differnt domain polocies
+	
+		=> manually testing in differnet browsers it is take taking process.
+
+======================================================================
+3.Performance testing
+	=> Performance is non functional testing 
+	=> Performance testing only possible using automation tool like [LoadRunner, Jmeter]
+	=> During this test performance testing engineers verify software speed  and response
+		under customer expected configuration
+
+	Performance testing can be conducted using below sub tests..
+			1. Load Testing
+			2. Stress Testing
+			3. Spike Testing
+			4. Endurance Testing
+
+Loadtesting: 
+	the execution of software under customer configaration and cutomer
+	expected load(No of concurrent users) to estimate speed in processing, is called
+	load testing
+
+Stress testing:
+	the execution of software under customer expected configaration and more 
+	than customer expected load to estimate "peak load" is called stress testing
+
+spike testing:
+	the execution of software under cutomer configaration and more than
+	customer expected load to estimate relability.
+	=>During this test tester add no of concurrent user suddenly and verify
+	    speed in processing
+
+Endurance testing:
+	execution of software under cutomer configaration and more than
+	customer expected load continously to estimate logvity and durability is called
+	endurance testing
+=========================================================================
+Datavolume testing:
+	During this test, testing team is operating software by storing sample 
+	data to estimate capacity of the software database.
+
+	Depends on technology, database capacities are changing due to this
+	reason testing team conduct data volume testing to find the capacity of database
+	in number of records.
+========================================================================
+Intersystem testing:-->
+	During this test, testing team verify our software is sharing data and co-existing
+	with other softwares.
+
+		Example:--> Flipkart use different payment gateways to make payement.
+				=> VISA
+				=> Master
+				=> American Express
+=========================================================================
+Installation Testing:-->
+	=> Installation testing conduct most commonly on Desktop softwares
+	=> To conduct installation testing tester follow below steps 
+
+	1.Verify set up program execute to start installation
+	2.Verify friendliness of screens while installation
+	3.Verify occupied space after installation
+	4.Verify Un install process 
+	5.Verify user can cancel installation any time.
+	6.Verify installation asking accept license agreement.
+	7.Verify user able to watch installation screens.
+=======================================================================
+Recovery Testing:-->
+
+	Recovery testing is performed in order to determine how quickly the system can
+	recover after the system crash or hardware failure. 
+	It comes under the type of nonfunctional testing.
+==========================================================================
+. Globalization Testing.
+	Globalization is a process of designing a software application so that 
+	it can be adapted to various languages and regions without any changes.
+
+		Example:-->
+			Amazon website can across the world with
+			differnet price tags.
+			
+			India --> http://amazon.in
+			UK    --> http://amazon.uk
+			USA   --> http://amazon.com
+
+===========================================================================
+Localization Testing (L10N Testing):
+	Localization is a process of adapting globalization software for a specific 
+	region orlanguage by adding local specific components.
+
+	1. Verify software available in local language
+	2. Verify local timezones are displaying
+	3. Verify Local maps displaying at software
+
+	Multy languity testing:
+	some times developers are developing a s\w in java unicode or .net with
+	unicode. This type  of sofware provide output in differnt lanaguge and by
+	taking input in one language.
+==============================================================================
+Security Testing:-->
+
+
+	
