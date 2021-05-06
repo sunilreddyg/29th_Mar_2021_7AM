@@ -1,0 +1,197 @@
+STLC:-->
+
+Test Initiation
+Test Plan
+Test Design  ----[TestScenario, Test case , Test Data]
+Test Execution
+
+Entry Criteria for Test Execution:-->
+	1. Unit and integration testing will be completed
+	2. All testcase should be designed and approved
+	3. Software installed into stagging servers
+
+
+	TestBed:--> Combination of test environment and testcase is called TestBED
+
+
+How they deploy software into test environment:-->
+
+		=> After completed testcase reviews TestLead request software intallation
+			at testing environment.
+		=> That means Software installation into local servers [Stagging Server]
+		=> Operational team deploy software into local servers and and request
+		   network team to install all dependent softwares into testing evironment..
+		=> Network team receive deployement document  [DD]
+
+		What Deployment Document Contains:-->
+
+			=> What are the hardware and softwares to install in testing environment
+				for Example:-->  
+						1. Operating system  [WIN10]
+						2. Browser	     [IE11]
+						3. RAM 		     [8 GB]
+						4. Database          [SQL]
+
+		=> Testing receive "Release note" from developement team
+		=> What [Release note] or [Build note] contains:-->
+
+				1. Document Version and approvals
+						Release#1      [Build version and Names]
+						Approved by ---[Name of the project manager]
+
+				2. Hardwares and Softwares to install at Testing environment
+						
+						1. Operating system  [WIN10]
+						2. Browser	     [IE11]
+					Note:--> Here testing team need to verify all neccessary
+						hardwares and software installed before execution.
+
+				3. Site url or Local IP address
+						http://192.168.1.23/OSM/Admin
+			
+				4. Authentication details 
+			
+						Site usernames and Password
+=================================================================================================>>
+TestExecution:-->
+
+		After completed software deployment process into testing environment. Testing team
+		follow below levels of execution.
+
+		Level-0 :--> Smoke Testing
+		Level-1 :--> Comprehesive testing 
+		Level-2 :--> Sanity Testing
+		Level-3 :--> ReTesting
+		Level-4 :--> Regression Testing
+		Level-5 :--> Final regression testing
+
+
+SmokeTesting:-->
+
+		Smoke testing is a level-0 testing. Testing team conduct smoke testing
+		on every initial software. The main agenda of smoke testing is to find
+		stability of software.
+
+		=> During smoke testing  testing team verify all important functionalites
+		   working and are they any "showstopper" defects available in software build.
+
+		=> Incase testing team findout any showStopper [High seviority  defects]
+		   immedietly testing suspend build and request new build to install in a testing
+		   environment..
+
+		=> Other name of smoke testing is "build verification testing"
+
+Comprehensive Testing:-->
+		=> comprehensive is level-1 testing ,Also knows as real testing
+		=> During this test testing team execute every testcase on Real Software.
+		=> In this level testing team report defects to developement team incase
+		   any mismatch find out in software while execution fo testcase.
+
+---------------------------------------------------------------------------------------------------------		
+		TestSteps       ||     Expected Result       	||    Actual Result        ||     Status
+---------------------------------------------------------------------------------------------------------
+1.Enter url at IE browser       ||   should display homepage 	||  Homepage is displayed  ||     TestPASS
+---------------------------------------------------------------------------------------------------------
+2.Cilck on Singin button        || should display Signup page  	||  Sigup not displayed    ||     TestFail
+----------------------------------------------------------------------------------------------------------
+
+
+Execution steps:-->
+
+	1. Pick a Testcase  
+	2. Read and Understand testcase
+	3. Operate software and perform test steps according to testcase
+	4. check actual result at real software, Then write acutal result at testcase document
+	5. If actual result match with expected result It mean test pass, when testpass we should write
+			Testpass status with testcase document and continue testexecution for next testcase.
+	6. If actual result mismatch with expected result we should change testcase status from NO-RUN to 
+			Testfail and report defect to developement team. 
+			Defect reporting tools --->[JIRA,QUALITYCENTER,Bugzilla ---etc]
+	7. Find dependent testcases for failure testcase, And change execution status from NO-RUN to NOT-COVERED
+	8. Continue execution for next testcase
+
+
+The following activities should be taken care:
+	1. Number of test cases executed.
+	2. Number of defects found
+	3. Screen shots of successful and failure executions should be taken in word document.
+	4. Time taken to execute.
+	5. Time wasted due to the unavailability of the system.
+
+
+	Note:--> During comprehensive testing testing team report defects to developement team. And	
+		developent team fix those defects and release new version of sofware to testing team
+		for further testing.
+
+------------------------------------------------------------------------------------------------------>>
+Sanity Testing:-->
+		Sanity testing also a build verification testing but santity testing conducts on modified
+		sofwares.
+
+		=> During sanity testing testing team verify application stability after code modified
+		   from developement team.
+		
+=======================================================================================================
+Retesting:-->
+	
+	To Ensure that the defecs which we reported in previous build were fixed or not in current build.
+
+		For Example:-->
+				=>Say build  Build#1.0 was released and we posted some defects to developement team
+				=>developement team fix those defects and release new version of software  Build#1.1 to testing team
+				=> Testing Build#1.0 defects in Build#1.1
+======================================================================================================
+Regression Testing:-->
+		
+		Repeating all failed and some of passed testcase on modified software. Here is the
+		assumption when software modified to fix bugs it may effect to existing software and 
+		their is chance of new defects invention.
+
+		=> Regression testing continues until all defects has been fixed
+
+
+		 Theroy:-->When your are introducing something to software, 
+					It means your are inveting new defects init.
+
+
+		when we do regression testing:-->
+			1. Any new requirement added to software
+			2. Any changes in requirements  
+			3. When Defects fix in exising software
+			4. when browser version is upgraded
+			5. When changes made in Databse
+			6. When Perform testing bugs fixed
+
+
+		The following activies should be take care?.
+			1. Un-covered testcase executon in previous build
+			2. Testcase while is not coverd due to unavailability of environment
+
+
+		Note:--> Becuase regression testing is time taking due to this reason testing 
+			 team follow automation tools to perform regression repeatedly.
+				
+				Regression tools available in market:-->
+					1. Selenium
+					2. UFT
+					3. RFT
+					4. CodedUI
+					5. Protractor
+					6. Katalon Stuido    ---etc
+======================================================================================================
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
