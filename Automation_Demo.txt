@@ -1,0 +1,57 @@
+Software Testing:--->
+		
+		Software testing is a process of finding quality.
+			1. Manual testing
+			2. Automaiton testing
+
+
+	Manual Testing:-->
+			=> Human involvement is mandatory
+			=> During manual testing testing team involve in repetative testing
+				without help of any tools or programming.
+
+
+	Automation Testing:-->
+			=> With Help of some automation tools we can test software and
+			   also repeate test execution without human involvement..
+
+
+
+Advantages of automation:-->
+		1. Eliminate human errors
+		2. For Automation testcase execution human involvement is not neccessary.
+		3. Automtaion execution is speed and save maintenance time.
+		4. Tools are reliable and allow to work 24/7
+		5. It is usefull to automate regression testcase.
+		6. Testcase execute preciesly each time when ever it is scheduled
+============================================================================================================>>
+Automation Tools:-->
+
+	Functional Tools:-->
+			1. Selenium
+			2. UFT [Unified functiona Tester]
+			3. Katalon Studio
+			4. CodedUI
+			5. RFT [Rational Functional Tester]
+			6. Protractor
+			7. Tosca
+			8. RPA [Robotic process automation]   
+
+	Non_functional Tools:-->
+			1. j-meter
+			2. LoadRunner    -----etc
+
+=================================================================================================================>
+
+
+
+
+
+
+
+
+
+
+
+
+	

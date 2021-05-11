@@ -1,0 +1,80 @@
+Selenium:-->
+
+	=> Selenium automate web interfaces
+	=> Selenium have set of components to automate browser interface.
+
+
+	Selenium components:-->
+			IDE--[Integrated Developement Environment]
+			WebDriver
+			Grid
+			RemoteControl [Stopped]
+
+
+	
+	Selenium IDE:-->
+		Selenium ide is firefox and chrome extension and it support
+		record and playback feature with browser interfaces.
+
+
+	Selenium Webdriver:-->
+		Webdriver is a native browser automation API.It support
+		multiple browser automation without help of any proxy.
+
+	Selenium Grid:-->
+		Grid support parallel execution on different machines.
+=======================================================================================>>
+
+
+Selenium IDE overview:-->
+	
+		Selenium IDE is a browser plugin for chrome and firefox.It is designed
+		non technical members to automate browser interfaces with help of record
+		and playback feature.
+
+		Advantages:-->
+			=> Without writing programming this plugin allow to automate web interfaces
+			=> Inbuilt Object identification mechanism
+			=> Recorded script can be converted into differnet languages.
+			=> With help of command line feature ide can run tests on multiple browser
+
+
+		Disadvantages:-->
+
+			=> Being a browser plugin in has limitation
+
+
+Install Selenium IDE into browser:-->
+
+	=> open selenium official site  http://selenium.dev
+	=> click on download tab
+	=> Scoll Page until selenium IDE
+	=> Under Selnium IDE click on "For Chrome"  or  "For Firefox" link according to which browser you opened
+	=> It navigate to chrome extension page click "AddtoChrome" button
+	=> It prompt extension click At "Add extension " button to complete selenium ide installation..
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
