@@ -1,4 +1,4 @@
-package mq.java.methods;
+package mq.java.methods.static_methods;
 
 public class SmartDore 
 {
