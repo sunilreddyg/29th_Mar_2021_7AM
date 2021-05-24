@@ -6,7 +6,7 @@ public class Robot_TestB
 	//method declare with parameter
 	public void run(int km)
 	{
-		System.out.println("Run completed in km speed--> "+km);
+		System.out.println(km);
 	}
 	
 	//Method with multiple parameters
@@ -21,12 +21,16 @@ public class Robot_TestB
 		Robot_TestB obj=new Robot_TestB();
 		obj.run(12);
 		obj.run(10);
-		obj.run(14);
+		obj.run(16);
 		
 		//Calling method with multiple arguments/functional parameters
 		obj.Ask_robot_to_walk("Right", 10);
 		obj.Ask_robot_to_walk("left", 4);
 		obj.Ask_robot_to_walk("forward", 14);
+		
+		
+		
+		
 	}
 
 }
