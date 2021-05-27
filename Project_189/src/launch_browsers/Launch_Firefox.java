@@ -2,7 +2,8 @@ package launch_browsers;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Launch_Firefox {
+public class Launch_Firefox 
+{
 
 	public static void main(String[] args) 
 	{
