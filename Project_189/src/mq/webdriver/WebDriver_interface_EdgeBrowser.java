@@ -20,6 +20,8 @@ public class WebDriver_interface_EdgeBrowser {
 	    driver.findElement(By.id("email")).sendKeys("darshan@gmail.com");
 	    driver.findElement(By.id("pass")).sendKeys("Hello12345");
 	    driver.findElement(By.name("login")).click();
+	    
+
 
 	}
 
