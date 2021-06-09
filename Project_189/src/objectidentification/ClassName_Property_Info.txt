@@ -1,0 +1,54 @@
+
+Identifying Object with Class Property:--->
+
+	
+
+	1. <input id="email1" class="Login">
+	2. <input id="password" class="Login"> 
+
+
+	
+		driver.FindElements(By.className("Login")); --------------------------> 1 & 2
+
+		driver.findElement(By.className("Login"));  --------------------------> 1
+
+
+
+How developers define different classes for same object:--->
+
+	
+	1. <div class="sbtn primary btn login-submit">  
+
+
+
+		Note:-->
+			=> In Above htmlsource developer defined group of class properties to
+				single object.
+			=> To define group class properties developer use space between classes
+			=> Space indicate different class property..
+
+		
+	driver.findElement(By.className("sbtn primary btn login-submit"));     //Wrong, it provide No SuchElement Exception
+
+	
+	What is the solution for above scenario:-->
+
+		driver.findElement(By.className("sbtn"));
+		driver.findElement(By.className("primary"));
+		driver.findElement(By.className("btn"));
+		driver.findElement(By.className("login-submit"));
+
+			Note:--> Before using class property better to check duplication in HtmlSource
+		
+		
+		Note:--> Xpath and CssSelectors allowed class property with spaces..
+
+		driver.findElement(By.cssSelector("div[class='sbtn primary btn login-submit']"));
+		driver.findElement(By.xpath("//div[@class='sbtn primary btn login-submit']"));
+
+============================================================================================================>>>
+How to check property duplication in HTMLSoruce:--->>
+		
+
+	
+		
