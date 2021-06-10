@@ -17,6 +17,8 @@ public class Identifying_Object_with_className {
 		
 		driver.findElement(By.className("puree-button-secondary"));
 		System.out.println("Object is identified");
+		
+		
 
 	}
 
