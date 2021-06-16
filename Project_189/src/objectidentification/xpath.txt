@@ -120,8 +120,6 @@ HtmlSource:-->
 =====================================================================
 Example:--> IDentify duplicate objects using index number
 
-
-
 HtmlSource:-->
 
 	<selector>
@@ -141,7 +139,7 @@ HtmlSource:-->
 			(xpath expression)[int pos]
 	
 			(//input[@type='text'])[2]	
-		
+===============================================================================>>
 		
 		
 		
