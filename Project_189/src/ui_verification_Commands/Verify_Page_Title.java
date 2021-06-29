@@ -1,11 +1,13 @@
-package mq.java.variable.WrapElement_And_Locator;
+package ui_verification_Commands;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Verify_Page_Title {
+public class Verify_Page_Title 
+
+{
 
 	public static void main(String[] args)
 	{
