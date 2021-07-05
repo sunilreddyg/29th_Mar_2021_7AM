@@ -182,9 +182,20 @@ getsize:-->
 					
 					int obj_width=Obj_dimension.getWidth();
 					System.out.println("Object width is "+obj_width);	
+					
+=============================================================================>>
+getrect:-->
+		Method capture selected element height,widht,x & y coordinates
 	
 	
-	
+	//Identify Element
+	WebElement Element=driver.findElement(By.id("x"));
+	int obj_height=Element.getrect.getheight();
+	int obj_width=Element.getrect.getwidth();
+	int obj_x=Element.getrect.getX();
+	int obj_y=Element.getrect.getY();
+
+==============================================================================>>
 	
 	
 	

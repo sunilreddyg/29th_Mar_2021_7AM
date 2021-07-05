@@ -1,0 +1,26 @@
+
+Testcase:-->
+		Verify Return date calendar Visible Status
+		
+		Given site url is "http://Cleartrip.com"
+		When Select Roundtrip Radio button
+		Then verify Returun date calendar comes to visiblet state
+		
+		
+Testcase:-->
+		Verify Return date calendar Hidden status
+	
+		Given site url is "http://Cleartrip.com"
+		When Select oneway Radio button
+		Then verify Returun date calendar goes to hidden state.
+		
+		
+Testcase:-->
+
+		Given site url is "https://v1.hdfcbank.com/branch-atm-locator"
+		Verify Locality editbox disabled before select state and city dropdown
+		
+		
+TestCase:-->
+		Given site url is "https://v1.hdfcbank.com/branch-atm-locator"
+		Verify Locality editbox enabled after state and city selection.
