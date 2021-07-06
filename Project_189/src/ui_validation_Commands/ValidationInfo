@@ -53,6 +53,12 @@ User interface validation commands:-->
 			Method return true/false  on element selection state
 			for radio button and checkboxes.
 			
+			Radio button hmtlsource:-->
+			
+					<input type="radio" id="oneway">  
+					you can use isselected method when object have "input" tag
+					and  type="radio" button..
+			
 			Syntax:-->
 					//Identify Element
 					WebElement Element=driver.findElement(By.id("x"));
