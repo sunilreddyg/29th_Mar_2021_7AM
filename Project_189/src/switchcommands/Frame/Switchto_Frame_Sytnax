@@ -1,0 +1,28 @@
+Html Source for Frame:--->
+
+<html>
+	<body>
+		<iframe  id="modelframe"  title="new model">
+				
+		</iframe>
+	</body>
+
+</html>
+
+==================================================================>>
+driver.switchto().frame(String framename/frameid);
+driver.switchto().frame(WebElement FrameElement);
+driver.switchto().frame(int frameindex);
+
+
+==> Switch to frame with id /name property
+driver.switchto().frame("modelframe");
+
+
+==> Switch to frame with Frame Element
+WebElement Frame_Element=driver.findElement(By.xpath("//iframe[@title='new model']"));
+driver.switchTo().frame(Frame_Element);
+
+
+==> Switch to frame with index number
+driver.switchto().frame(0);
