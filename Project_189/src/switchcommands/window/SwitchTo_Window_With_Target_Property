@@ -1,0 +1,24 @@
+
+
+
+Hyper link:-->
+
+	<a  href="http://instargram.com"  target="_blank"> Instagram </a>   
+
+Hyper Link:-->
+	<a  href="http://instalocation.com"  target="_new"> Location </a>
+
+
+	driver.findElement(By.Linktext("Location")).click();
+	driver.Switchto().window("_new");
+	
+	
+	=> In Hyper link when target property is othethan blank we can use
+	   target property to switch to next window..
+	   
+	   
+Testcase:-->
+
+		1. URL --> https://epass.apcfss.in/
+		2. Under frame click on college reports
+		3. Click hyper link  DistrictWise Colleges Report
