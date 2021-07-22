@@ -32,8 +32,7 @@ public class IE_Desired_Capabilities {
 		InternetExplorerDriver ie=new InternetExplorerDriver(options);
 		
 		
-		File src=((TakesScreenshot)ie).getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(src, new File("screens\\google.png"));
+		
 
 	}
 
