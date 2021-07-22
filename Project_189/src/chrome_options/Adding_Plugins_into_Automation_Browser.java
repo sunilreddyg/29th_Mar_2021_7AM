@@ -6,9 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Adding_Plugins_into_Automation_Browser {
+public class Adding_Plugins_into_Automation_Browser 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		
 		ChromeOptions options=new ChromeOptions();
