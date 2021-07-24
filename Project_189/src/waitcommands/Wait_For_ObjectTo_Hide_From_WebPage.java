@@ -1,37 +1,30 @@
 package waitcommands;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Explicit_Wait_Syntax 
+public class Wait_For_ObjectTo_Hide_From_WebPage 
 {
 
 	public static void main(String[] args) 
 	{
 		
-		
 		System.setProperty("webdriver.chrome.driver", "new_driver_path\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		driver.get("http://facebook.com");
+		driver.get("https://www.selenium.dev/");
 		driver.manage().window().maximize();
 		
 		
+		//Enable dynamic timeout for automation browser
+		WebDriverWait wait=new WebDriverWait(driver, 100);
 		
 		
-		WebDriverWait wait=new WebDriverWait(driver, 50);
-		wait.until(ExpectedConditions.titleIs("Facebook – log in or sign up"));
-		System.out.println("title verified for facebook page");
-		
-		
-		/*
-		 * If time is exceeded webdriverwait throws TimeoutException
-		 */
-		
-		
-		
-		
+		By Downlaod_loc=By.xpath("//a[@class='nav-item'][contains(.,'Downloads')]");
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(Downlaod_loc));
+		System.out.println("Object is hidden at webpage");
 
 	}
 
