@@ -223,20 +223,21 @@ Example:--> manage explicitwait until expected input presented at editbox.
 =========================================================================
 
 Alertpresented:-->
-	  An expectatino to verify alert presented at webpage.
+	  An expectation to verify alert presented at webpage.
 	  
 	  WebdriverWait  wait=new WebDriverwait(driver,100);
 	  wait.until(ExpectedConditions.Alertpresented()).accept();	
 ====================================================================
 				
 frametobeavailableAndSwitchToIt:-->
-	An expecation to verify expected frame loaded at webpage.
+	An expectation to verify expected frame loaded at webpage.
 	
 	WebdriverWait  wait=new WebDriverwait(driver,100);
 	wait.until(ExpectedConditions.FrameTobeAvailableAndSwitchtoIt(By FrameLocator));
 
 ======================================================================		
 NumberofWindowsTobe:-->
+	An expectation to verify number of window to be open
 	
 	WebdriverWait  wait=new WebDriverwait(driver,100);
 	wait.until(ExpectedConditions.NumberofWindowsTobe(int num));
