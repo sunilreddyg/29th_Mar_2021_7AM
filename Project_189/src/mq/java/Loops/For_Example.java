@@ -44,7 +44,7 @@ public class For_Example {
 		//Continue
 		for (int i = 1; i <=5; i++) 
 		{
-			if(i==3)
+			if(i==2 || i==4)
 			{
 				continue;   //Skip iteration and continue next iteration from starting
 			}
@@ -54,8 +54,13 @@ public class For_Example {
 		
 		
 		
-		
-		
+		//Conduct Sum between 1 to 100 numbers
+		int sum=0;
+		for (int i = 1; i <= 100; i++) 
+		{
+			sum=sum+i;
+		}
+		System.out.println("total value is --> "+sum);
 		
 		
 		

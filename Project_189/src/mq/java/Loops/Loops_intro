@@ -44,9 +44,9 @@ Loops:-->
 				=> We can also eject looping by writing  break;  keyword.
 ===============================================================================>		
 Foreach:-->
-			Foreach loop usefull to iterate Array next values.
+			Foreach loop usefull to iterate Array and collection  next values.
 			
-			for(Variable : Arrayname)
+			for(Variable var : Arrayname)
 			{
 				//Iteate based on array size.
 			}
