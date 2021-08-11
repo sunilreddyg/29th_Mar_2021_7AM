@@ -1,0 +1,10 @@
+DataDriven Framework:-->
+
+	Datadriven framework separate testdata from testscripts and define
+	test data in separate spreed sheets like [Excel,CsvFiles ---etc]
+	then driver test data to testcase without hardcoding it.
+	
+	Advantages:-->
+			=> Any non technical people modify testdata without editing program
+			=> Instated of hardcoding data with in testscript we can drive
+					testdata to testcase without making changes in script.
