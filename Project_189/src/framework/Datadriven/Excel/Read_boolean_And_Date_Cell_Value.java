@@ -4,14 +4,15 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class Read_boolean_And_Date_Cell_Value {
+public class Read_boolean_And_Date_Cell_Value 
+{
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException 
+	{
 		
 		FileInputStream fi=new FileInputStream("TestData\\InputData.xlsx");
 		System.out.println("file located");
@@ -42,13 +43,7 @@ public class Read_boolean_And_Date_Cell_Value {
 		SimpleDateFormat sdf=new SimpleDateFormat("dd-MM-yyyy");
 		String new_Date=sdf.format(date);
 		System.out.println(new_Date);
-		
-		
-		
-		
-		
-		
-		
+			
 
 	}
 
