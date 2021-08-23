@@ -60,6 +60,9 @@ public class Reading_Different_Types_of_Data_From_Multiple_Cells {
 		}
 		
 		
+		
+		
+		
 
 	}
 

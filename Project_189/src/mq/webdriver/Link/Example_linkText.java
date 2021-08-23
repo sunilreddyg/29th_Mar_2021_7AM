@@ -29,7 +29,7 @@ public class Example_linkText {
 		driver.findElement(By.linkText("Leo Messi")).click();
 		
 		
-
+		
 	}
 
 }

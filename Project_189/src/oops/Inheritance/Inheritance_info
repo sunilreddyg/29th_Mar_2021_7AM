@@ -1,0 +1,35 @@
+Java Inheritance (Subclass and Superclass)
+		Inheritacne is  a mechanism is which inherit superclass information int child object
+		
+		
+		subclass (child) - the class that inherits from another class
+		superclass (parent) - the class being inherited from
+		
+		
+		
+		Syntax:-->
+		
+		class Parent
+		{
+		
+			int a=100;
+			
+			void method1()
+			{
+				System.out.println("Parent method");
+			}
+		
+		}
+		
+		
+		class Child extends Parent
+		{
+		
+		
+			void method2()
+			{
+				System.out.prinln(a);
+				method1();
+			}
+		
+		}
