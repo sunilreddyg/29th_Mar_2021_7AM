@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default_suite">
+		<test name="sample" verbose="2">
+				<classes>
+						<class name="framework.testng.TestSuite.Class1"/>
+						<class name="framework.testng.TestSuite.Class3"/>
+						<class name="framework.testng.TestSuite.Class2"/>
+				</classes>
+		</test>
+</suite>
