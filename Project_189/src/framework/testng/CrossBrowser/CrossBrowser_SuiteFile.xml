@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite name="deafult"  parallel="instances" thread-count="5" >
+<suite name="deafult"  parallel="tests" thread-count="5" >
 
 	<parameter name="Application_url" value="http://facebook.com"/>
 	<parameter name="UID" value="darshan@123"/>
