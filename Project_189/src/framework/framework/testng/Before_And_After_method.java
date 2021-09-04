@@ -7,8 +7,7 @@ import org.testng.annotations.AfterMethod;
 
 public class Before_And_After_method 
 {
-	
-	
+
 	@Test
 	public void tc001()
 	{

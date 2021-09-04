@@ -1,49 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="8" passed="8">
   <reporter-output>
     <line>
-      <![CDATA[Tc001 Finished]]>
+      <![CDATA[Email enter finished]]>
     </line>
     <line>
-      <![CDATA[Tc002 Finished]]>
+      <![CDATA[Password Enter finished]]>
+    </line>
+    <line>
+      <![CDATA[Email enter finished]]>
+    </line>
+    <line>
+      <![CDATA[Password Enter finished]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2021-08-31T13:10:41Z" finished-at="2021-08-31T13:10:41Z">
+  <suite name="deafult" duration-ms="42249" started-at="2021-09-04T13:36:21Z" finished-at="2021-09-04T13:37:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2021-08-31T13:10:41Z" finished-at="2021-08-31T13:10:41Z">
-      <class name="framework.framework.testng.Before_And_After_method">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+    <test name="test_with_firefox" duration-ms="27123" started-at="2021-09-04T13:36:21Z" finished-at="2021-09-04T13:36:48Z">
+      <class name="framework.testng.CrossBrowser.CrossBrowser_Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:framework.testng.CrossBrowser.CrossBrowser_Test@1593948d]" name="launchBrowser" duration-ms="7888" started-at="2021-09-04T19:06:21Z" finished-at="2021-09-04T19:06:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="tc001()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="tc001" duration-ms="7" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:1, instance:framework.testng.CrossBrowser.CrossBrowser_Test@1593948d]" name="loadApp" duration-ms="7503" started-at="2021-09-04T19:06:29Z" finished-at="2021-09-04T19:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="User_login(java.lang.String, java.lang.String)[pri:2, instance:framework.testng.CrossBrowser.CrossBrowser_Test@1593948d]" name="User_login" duration-ms="276" started-at="2021-09-04T19:06:36Z" finished-at="2021-09-04T19:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darshan@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sunil@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Tc001 Finished]]>
+              <![CDATA[Email enter finished]]>
+            </line>
+            <line>
+              <![CDATA[Password Enter finished]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc001 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="afterMethod" is-config="true" duration-ms="4" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+        </test-method> <!-- User_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:framework.testng.CrossBrowser.CrossBrowser_Test@1593948d]" name="closeBrowser" duration-ms="11399" started-at="2021-09-04T19:06:37Z" finished-at="2021-09-04T19:06:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- framework.testng.CrossBrowser.CrossBrowser_Test -->
+    </test> <!-- test_with_firefox -->
+    <test name="test_with_chrome" duration-ms="15105" started-at="2021-09-04T13:36:48Z" finished-at="2021-09-04T13:37:03Z">
+      <class name="framework.testng.CrossBrowser.CrossBrowser_Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:framework.testng.CrossBrowser.CrossBrowser_Test@4501b7af]" name="launchBrowser" duration-ms="2558" started-at="2021-09-04T19:06:48Z" finished-at="2021-09-04T19:06:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="tc002()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="tc002" duration-ms="2" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loadApp(java.lang.String)[pri:1, instance:framework.testng.CrossBrowser.CrossBrowser_Test@4501b7af]" name="loadApp" duration-ms="7757" started-at="2021-09-04T19:06:51Z" finished-at="2021-09-04T19:06:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadApp -->
+        <test-method status="PASS" signature="User_login(java.lang.String, java.lang.String)[pri:2, instance:framework.testng.CrossBrowser.CrossBrowser_Test@4501b7af]" name="User_login" duration-ms="356" started-at="2021-09-04T19:06:58Z" finished-at="2021-09-04T19:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[darshan@123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sunil@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[Tc002 Finished]]>
+              <![CDATA[Email enter finished]]>
+            </line>
+            <line>
+              <![CDATA[Password Enter finished]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc002 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:framework.framework.testng.Before_And_After_method@482f8f11]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-31T18:40:41Z" finished-at="2021-08-31T18:40:41Z">
+        </test-method> <!-- User_login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:framework.testng.CrossBrowser.CrossBrowser_Test@4501b7af]" name="closeBrowser" duration-ms="4406" started-at="2021-09-04T19:06:59Z" finished-at="2021-09-04T19:07:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- framework.framework.testng.Before_And_After_method -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- framework.testng.CrossBrowser.CrossBrowser_Test -->
+    </test> <!-- test_with_chrome -->
+  </suite> <!-- deafult -->
 </testng-results>

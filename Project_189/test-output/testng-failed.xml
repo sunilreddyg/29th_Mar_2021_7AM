@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [deafult]">
+  <parameter name="Application_url" value="http://facebook.com"/>
+  <parameter name="UID" value="darshan@123"/>
+  <parameter name="browsername" value="chrome"/>
+  <parameter name="PWD" value="Sunil@123"/>
+  <test name="test_with_firefox(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <classes>
+      <class name="framework.testng.CrossBrowser.CrossBrowser_Test">
+        <methods>
+          <include name="User_login"/>
+        </methods>
+      </class> <!-- framework.testng.CrossBrowser.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- test_with_firefox(failed) -->
+  <test name="test_with_chrome(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="framework.testng.CrossBrowser.CrossBrowser_Test">
+        <methods>
+          <include name="User_login"/>
+        </methods>
+      </class> <!-- framework.testng.CrossBrowser.CrossBrowser_Test -->
+    </classes>
+  </test> <!-- test_with_chrome(failed) -->
+</suite> <!-- Failed suite [deafult] -->
