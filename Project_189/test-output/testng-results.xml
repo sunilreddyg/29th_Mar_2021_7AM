@@ -1,97 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="12" passed="11">
+<testng-results skipped="0" failed="0" total="14" passed="14">
   <reporter-output>
+    <line>
+      <![CDATA[tc004  Executed]]>
+    </line>
+    <line>
+      <![CDATA[tc005  Executed]]>
+    </line>
+    <line>
+      <![CDATA[Tc006 executed]]>
+    </line>
+    <line>
+      <![CDATA[tc004  Executed]]>
+    </line>
+    <line>
+      <![CDATA[tc005  Executed]]>
+    </line>
+    <line>
+      <![CDATA[Tc006 executed]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9879" started-at="2021-09-06T13:28:16Z" finished-at="2021-09-06T13:28:26Z">
+  <suite name="Crossbrowser" duration-ms="141" started-at="2021-09-07T13:39:07Z" finished-at="2021-09-07T13:39:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9879" started-at="2021-09-06T13:28:16Z" finished-at="2021-09-06T13:28:26Z">
-      <class name="framework.testng.Test_with_Invacation_Count">
-        <test-method status="PASS" signature="SetupBrowser()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="SetupBrowser" is-config="true" duration-ms="6308" started-at="2021-09-06T18:58:16Z" finished-at="2021-09-06T18:58:22Z">
+    <test name="chrome" duration-ms="75" started-at="2021-09-07T13:39:07Z" finished-at="2021-09-07T13:39:07Z">
+      <class name="framework.testng.BeforeTest_and_AfterTest.TestSuite2">
+        <test-method status="PASS" signature="tc004()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@1b604f19]" name="tc004" duration-ms="3" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc005()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@1b604f19]" name="tc005" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@1b604f19]" name="tc006" duration-ms="1" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tc006 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.TestSuite2 -->
+      <class name="framework.testng.BeforeTest_and_AfterTest.TestSuite1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@4cc0edeb]" name="tc001" duration-ms="7" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetupBrowser -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="337" started-at="2021-09-06T18:58:22Z" finished-at="2021-09-06T18:58:23Z">
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@4cc0edeb]" name="tc002" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="242" started-at="2021-09-06T18:58:23Z" finished-at="2021-09-06T18:58:23Z">
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@4cc0edeb]" name="tc003" duration-ms="15" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="235" started-at="2021-09-06T18:58:23Z" finished-at="2021-09-06T18:58:23Z">
+        </test-method> <!-- tc003 -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.TestSuite1 -->
+      <class name="framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome@7823a2f9]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="265" started-at="2021-09-06T18:58:23Z" finished-at="2021-09-06T18:58:23Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome@7823a2f9]" name="login" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="294" started-at="2021-09-06T18:58:23Z" finished-at="2021-09-06T18:58:24Z">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome@7823a2f9]" name="afterTest" is-config="true" duration-ms="4" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="260" started-at="2021-09-06T18:58:24Z" finished-at="2021-09-06T18:58:24Z">
+        </test-method> <!-- afterTest -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.Test_for_Chrome -->
+    </test> <!-- chrome -->
+    <test name="firefox" duration-ms="30" started-at="2021-09-07T13:39:07Z" finished-at="2021-09-07T13:39:07Z">
+      <class name="framework.testng.BeforeTest_and_AfterTest.TestSuite2">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@61832929]" name="beforesuite" is-config="true" duration-ms="12" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="321" started-at="2021-09-06T18:58:24Z" finished-at="2021-09-06T18:58:24Z">
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="tc004()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@61832929]" name="tc004" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc005()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@61832929]" name="tc005" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005  Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite2@61832929]" name="tc006" duration-ms="4" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Tc006 executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.TestSuite2 -->
+      <class name="framework.testng.BeforeTest_and_AfterTest.TestSuite1">
+        <test-method status="PASS" signature="tc001()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@3ffc5af1]" name="tc001" duration-ms="2" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="281" started-at="2021-09-06T18:58:24Z" finished-at="2021-09-06T18:58:25Z">
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@3ffc5af1]" name="tc002" duration-ms="4" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="276" started-at="2021-09-06T18:58:25Z" finished-at="2021-09-06T18:58:25Z">
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.TestSuite1@3ffc5af1]" name="tc003" duration-ms="1" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="407" started-at="2021-09-06T18:58:25Z" finished-at="2021-09-06T18:58:25Z">
+        </test-method> <!-- tc003 -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.TestSuite1 -->
+      <class name="framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox@29774679]" name="beforeTest" is-config="true" duration-ms="0" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="PASS" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="340" started-at="2021-09-06T18:58:25Z" finished-at="2021-09-06T18:58:26Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox@29774679]" name="Logout" duration-ms="0" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-        <test-method status="FAIL" signature="Tc001()[pri:0, instance:framework.testng.Test_with_Invacation_Count@5c7fa833]" name="Tc001" duration-ms="238" started-at="2021-09-06T18:58:26Z" finished-at="2021-09-06T18:58:26Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Cannot locate option with index: 12
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'PRANIL', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: unknown]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 12
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'PRANIL', ip: '192.168.29.172', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
-	at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
-	at framework.testng.Test_with_Invacation_Count.Tc001(Test_with_Invacation_Count.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
-	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
-	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox@29774679]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-09-07T19:09:07Z" finished-at="2021-09-07T19:09:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tc001 -->
-      </class> <!-- framework.testng.Test_with_Invacation_Count -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- framework.testng.BeforeTest_and_AfterTest.Test_For_Firefox -->
+    </test> <!-- firefox -->
+  </suite> <!-- Crossbrowser -->
 </testng-results>

@@ -6,16 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Test_with_Invacation_Count 
 {
 	
-	int count=1;
-  @Test(invocationCount=12,timeOut=500)
+  int count=1;
+  @Test(invocationCount=11,timeOut=500)
   public void Tc001() 
   {
 		new Select(driver.findElement(By.id("month"))).selectByIndex(count);
@@ -38,9 +36,6 @@ public class Test_with_Invacation_Count
   }
   
  
-  
-  
-  
   
   
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default">
+
+	  <listeners>
+   			 <listener class-name="framework.testng.listeners.New_Reports"></listener>
+   			 <listener class-name="framework.testng.listeners.Run_Listeners"></listener>
+  	  </listeners>
+
+
+	<test name="test1" verbose="2">
+		<classes>
+			<class name="framework.testng.listeners.MyTests"/>
+			<class name="framework.testng.listeners.MyTest"/>
+		</classes>
+	</test>
+</suite>
